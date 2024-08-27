@@ -2,7 +2,7 @@
 
 var postTitle = document.getElementById('post-title');
 var postDiscription = document.getElementById('post-discription');
-
+var postCard = document.getElementById('post-card');
 
 function addPosts() {
     var postTitle = document.getElementById('post-title');
@@ -12,7 +12,7 @@ function addPosts() {
 
     if (postTitle.value.trim() && postDiscription.value.trim()) {
 
-        posts.innerHTML += `<div class="card  mt-3">
+        posts.innerHTML += `<div class="card  mt-3" id="post-card">
     <div class="card-header fontStyle">
 @Posts
 </div>
@@ -83,4 +83,33 @@ async function edit(event) {
     postDiscription.innerHTML = descriptionElement.innerHTML;
 
 
+}
+
+function addBg1() {
+    var postCard = document.getElementById('post-card');
+    postCard.className += " add-bg-1"
+}
+
+
+function addBg2() {
+    var postCard = document.getElementById('post-card');
+    postCard.className += " add-bg-2"
+}
+
+
+function addBg3() {
+    var postCard = document.getElementById('post-card');
+    postCard.className += " add-bg-3"
+}
+
+
+function addBg4() {
+    var postCard = document.getElementById('post-card');
+    postCard.className += " add-bg-4"
+}
+
+
+function addBg5() {
+    var postCard = document.getElementById('post-card');
+    postCard.className += " add-bg-5"
 }

@@ -24,3 +24,25 @@
     border: 2px solid #125B9A;
     border-radius: 10px;
 }
+
+.images img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.add-bg-1{
+    background-image: url('./images/bg-1.jfif');
+}
+.add-bg-2{
+    background-image: url('./images/bg-2.jfif');
+}
+.add-bg-3{
+    background-image: url('./images/bg-3.jfif');
+}
+.add-bg-4{
+    background-image: url('./images/bg-4.jfif');
+}
+.add-bg-5{
+    background-image: url('./images/bg-5.jfif');
+}
